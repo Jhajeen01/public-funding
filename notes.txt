@@ -1,0 +1,93 @@
+web3 & client setup!
+dotenv.
+solidity : strictly typed lang!
+    //fix :steps
+    first struct!
+    then mapping
+
+    create functions.
+    inputs to function.
+    
+    start empty in campaign then fillup!
+
+    
+    created contract. 
+    setup metamask.
+    setup testnetwork.
+    npm run deploy to deploy web3 app using thirdweb.
+
+compilation done.
+    open link of thirdweb to deploy contract on site.
+    connect to metamask.
+    
+
+
+
+
+    start vite and remove everything.
+    setup main.jsx which is needed in html. then app.jsx file for main page component.
+    import assests.
+    tailwind css install and init
+    setup index.css
+
+    constants and index.js
+
+
+    create react context api use for logic the app(thirdweb)
+    
+setup indexjs in utils
+
+basic structure components, pages, assets.
+
+starts sidebar!
+
+create sidebar.
+link to "/" Icon.
+below link list of different icons.
+sidebar is active with default of dashboard will setIsActive status of other component if
+clicked. and rest will be on inactive.
+--fix imp:
+under handle click.
+if link.disabled in index.js is false then set the isactive using setIsActive.
+when active status is set, navigate to that page.
+--fix fixed:
+ImgUrl-->imUrl 
+navlinks has imgUrl where i was trying to access ImgUrl.
+
+
+
+into navbar. 
+custom button
+import logo menu seach thirdweb form assets.
+:implemented search input tag. 
+
+
+--fix 
+Q. how navbar stays up when not directed. about others too.
+: in app.js.
+navbar and sidebar are fixed while others are routed.
+
+
+--todo: into createCampaign.
+will connect to blockChain and smartcontract. and create campaign on blockChain
+
+--todo 
+to much has happend, overview:
+created formfield and used it multiple times. 
+passed required values to it.
+
+now handleformfieldchange is being used to setform (update form).
+using e.target.value
+e.preventDefault();//reload the page after submission.
+so submission works now connection to smart contract.
+
+all smart contract interactions in one single file.
+in-context file has all the logic for web3.
+
+
+--fix
+Vite does not allow usage of JSX syntax within . js files by default.
+useEffect(() => {
+  //Runs on the first render
+  //And any time any dependency value changes
+}, [prop, state]);
